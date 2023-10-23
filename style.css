@@ -1,0 +1,66 @@
+body {
+  background-image: url("img/pattern.jpg");
+  /* background-color: #e3e3e3; */
+  margin: 0;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  scroll-behavior: smooth;
+}
+
+img {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+section {
+  font-family: poppins, sans-serif;
+  max-width: 70em;
+  margin: auto;
+  background: #f1f5fc;
+  opacity: 85%;
+  padding: 6vh;
+  height: 40rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+}
+
+ul {
+  text-align: right;
+  display: flex;
+  align-items: right;
+  padding-left: 80%;
+  height: 4px;
+  list-style-type: none;
+  display: flex;
+}
+
+.border  {
+    border-bottom: 5px solid #101010;
+    height: auto;
+}
+
+li {
+    padding: 20px;
+    margin-top: -60px;
+    font-size: 18;
+    color: #e3e3e3;
+}
+
+header {
+  background-color: #362828;
+}
+
+
+footer {
+  margin-top: 62px;
+  width: auto;
+  text-align: center;
+  padding: 10px;
+  background-color: #101010;
+  color: #e3e3e3;
+}
